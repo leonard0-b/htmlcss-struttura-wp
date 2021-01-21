@@ -5,6 +5,8 @@
 
 body {
   height: 100%;
+  width: 80%;
+  margin: auto;;
 }
 
 .row:after {
@@ -25,6 +27,16 @@ body {
   width: 100%;
 }
 
+.w25 {
+  width: 25%;
+  border-top: 30px solid #0187FA;
+  border-bottom: 30px solid #0187FA;
+}
+
+.w50 {
+  width: 50%;
+}
+
 .pink {
   background-color: #E579E6;
   height: 100px;
@@ -33,4 +45,26 @@ body {
 .yellow {
   background-color: #E1D67A;
   height: 500px;
+}
+
+.mid-bottom {
+  background-color: #0187FA;
+}
+
+.cyan {
+  background-color: cyan;
+  height: 800px;
+}
+
+.center {
+  border: 30px solid #0187FA;
+}
+
+footer {
+  margin-top: -15px;
+}
+
+.purple {
+  background-color: #8801FE;
+  height: 100px;
 }
