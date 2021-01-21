@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col {
+  float: left;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.pink {
+  background-color: #E579E6;
+  height: 100px;
+}
+
+.yellow {
+  background-color: #E1D67A;
+  height: 500px;
+}
